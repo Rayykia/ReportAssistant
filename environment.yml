@@ -1,0 +1,16 @@
+name: ReportAssistant
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.11.3
+  - numpy=1.24.3
+  - pandas=1.5.3
+  - openpyxl=3.0.10
+  - pip
+  - pip:
+      - xlwings==0.29.1
+      - pillow==10.1.0
+      - pywin32-ctypes==0.2.2
+      - xlrd==2.0.1
